@@ -1,0 +1,32 @@
+{
+  "name": "secure-shuffle",
+  "version": "1.0.0",
+  "description": "Shuffle an array using randomBytes as the RNG",
+  "main": "index.js",
+  "dependencies": {
+    "randombytes": "^2.0.3",
+    "tape": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emilbayes/secure-shuffle.git"
+  },
+  "keywords": [
+    "secure",
+    "shuffle",
+    "crypto",
+    "mix",
+    "random",
+    "buffer"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/secure-shuffle/issues"
+  },
+  "homepage": "https://github.com/emilbayes/secure-shuffle#readme"
+}
