@@ -1,13 +1,14 @@
 {
   "name": "secure-shuffle",
   "version": "1.0.0",
-  "description": "Shuffle an array using randomBytes as the RNG",
+  "description": "Shuffle an array using secure-random-uniform as the RNG",
   "main": "index.js",
   "dependencies": {
-    "randombytes": "^2.0.3",
+    "secure-random-uniform": "^1.0.0"
+  },
+  "devDependencies": {
     "tape": "^4.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test"
   },

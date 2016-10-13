@@ -1,6 +1,6 @@
 # `secure-shuffle`
 
-> Shuffle an array using `randomBytes` as the RNG
+> Shuffle an array using `secure-random-uniform` as the RNG
 
 ## Install
 
